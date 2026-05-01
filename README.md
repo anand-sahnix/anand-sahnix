@@ -11,11 +11,11 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="40" />
   </a>
   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-  <a href="https://instagram.com/anandsahni__" target="blank">
+  <a href="https://www.instagram.com/anandsahni___/" target="blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" height="40" />
   </a>
   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-  <a href="https://twitter.com/sahni223Anand" target="blank">
+  <a href="https://x.com/Sahni223Anand" target="blank">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" height="40" />
   </a>
 </p>
