@@ -34,7 +34,7 @@
 <br>
 
 <h3 align="left">🚀 Currently Learning:</h3>
-<p>Machine Learning | DSA | Backend Development</p>
+<p>Machine Learning | DSA | Backend Development | Finance</p>
 
 <h3 align="left">⚡ Fun Fact:</h3>
 <p>I turn ideas into code, one commit at a time.</p>
