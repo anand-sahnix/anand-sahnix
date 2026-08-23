@@ -2,6 +2,8 @@
 
 <h3 align="center">A passionate Fullstack Developer from India 🇮🇳</h3>
 
+![Profile Views](https://komarev.com/ghpvc/?username=anand-sahnix&label=Profile%20Views&color=0e75b6&style=flat)
+
 <br>
 
 <h3 align="left">🌐 Connect with me:</h3>
