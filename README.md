@@ -4,6 +4,8 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=anand-sahnix&label=Profile%20Views&color=0e75b6&style=flat)
 
+📫 How to reach me: **anandsahni582@gmail.com**
+
 <br>
 
 <h3 align="left">🌐 Connect with me:</h3>
