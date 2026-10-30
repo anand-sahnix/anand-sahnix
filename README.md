@@ -1,4 +1,5 @@
-﻿<div align="center">
+﻿![Profile Views](https://komarev.com/ghpvc/?username=anand-sahnix&label=Profile%20Views&color=0e75b6&style=flat)
+<div align="center">
 
 <img src="assets/banner.svg" alt="Anand Sahni - Full Stack Developer and AI Enthusiast" width="100%" />
 
