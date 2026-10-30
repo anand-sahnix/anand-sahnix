@@ -1,137 +1,95 @@
-![Profile Views](https://komarev.com/ghpvc/?username=anand-sahnix&label=Profile%20Views&color=0e75b6&style=flat)
-<!-- ========== HEADER ========== -->
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text=ANAND%20KUMAR%20SAHNI&fontSize=48&fontColor=00D9FF&fontAlignY=55&animation=twinkling" width="100%" />
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5D4,100:9B5DE5&height=3&section=footer" width="100%"/>
+﻿<div align="center">
+
+<img src="assets/banner.svg" alt="Anand Sahni - Full Stack Developer and AI Enthusiast" width="100%" />
+
+<br />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;AI+%26+Generative+AI+Enthusiast;Competitive+Programmer;Building+AI-powered+applications)](https://git.io/typing-svg)
+
+</div>
+
 <p align="center">
-  <sub>B A C K E N D&nbsp;&nbsp; · &nbsp;&nbsp;S Y S T E M S&nbsp;&nbsp; · &nbsp;&nbsp;A P P L I E D  A I</sub>
+  <a href="https://github.com/anand-sahnix"><img src="https://img.shields.io/badge/GitHub-anand--sahnix-161b22?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/anand-kumar-sahni/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Building+real-world+software+solutions;Exploring+AI+and+intelligent+systems;Learning+%7C+Building+%7C+Deploying" alt="Typing SVG" />
-</p>
+## `whoami`
+
+<div align="center">
+  <img src="assets/terminal.svg" alt="Terminal profile: Anand Sahni, Full Stack Developer, B.Tech CSE third year, focusing on AI, Generative AI, DSA, and trading technology" width="100%" />
 </div>
 
+I build full stack applications and explore how AI can make useful products more capable. My current focus spans web development, generative AI, problem solving, and trading technology.
 
+## Technology stack
 
+**Programming languages**
 
-<!-- ========== CONTACT BUTTONS ========== -->
+![Java](https://img.shields.io/badge/Java-0D1117?style=flat&logo=openjdk&logoColor=ED8B00) ![Python](https://img.shields.io/badge/Python-0D1117?style=flat&logo=python&logoColor=3776AB) ![C++](https://img.shields.io/badge/C%2B%2B-0D1117?style=flat&logo=cplusplus&logoColor=00599C) ![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=flat&logo=javascript&logoColor=F7DF1E)
+
+**Frontend**
+
+![HTML5](https://img.shields.io/badge/HTML5-0D1117?style=flat&logo=html5&logoColor=E34F26) ![CSS3](https://img.shields.io/badge/CSS3-0D1117?style=flat&logo=css3&logoColor=1572B6) ![React](https://img.shields.io/badge/React-0D1117?style=flat&logo=react&logoColor=61DAFB)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=flat&logo=nodedotjs&logoColor=5FA04E) ![Express](https://img.shields.io/badge/Express-0D1117?style=flat&logo=express&logoColor=white)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=flat&logo=mongodb&logoColor=47A248) ![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=flat&logo=mysql&logoColor=4479A1)
+
+**AI & machine learning**
+
+![Generative AI](https://img.shields.io/badge/Generative_AI-0D1117?style=flat&logo=googlegemini&logoColor=8E75B2) ![AI](https://img.shields.io/badge/Artificial_Intelligence-0D1117?style=flat&logo=probot&logoColor=38BDF8)
+
+**Developer tools**
+
+![Git](https://img.shields.io/badge/Git-0D1117?style=flat&logo=git&logoColor=F05032) ![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=flat&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-0D1117?style=flat&logo=visualstudiocode&logoColor=007ACC)
+
+## Selected work
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/projects/mock-interview.svg" alt="AI Powered Mock Interview Platform project card" width="100%" /></td>
+    <td width="50%"><img src="assets/projects/tradeiq.svg" alt="TradeIQ project card" width="100%" /></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/projects/alphadesk.svg" alt="AlphaDesk project card" width="100%" /></td>
+    <td width="50%"><img src="assets/projects/rag-chatbot.svg" alt="RAG-based HR Chatbot project card" width="100%" /></td>
+  </tr>
+</table>
+
+Project repository links were not present in the inspected profile source, so no repository URLs or live demos are listed here.
+
+## GitHub activity
 
 <div align="center">
 
-<a href="https://github.com/anand-sahnix">
-  <img src="https://img.shields.io/badge/PORTFOLIO-00C7D9?style=for-the-badge&logo=github&logoColor=black" />
-</a>
-<a href="mailto:YOUR_EMAIL">
-  <img src="https://img.shields.io/badge/EMAIL-F15BB5?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/anand-kumar-sahni/">
-  <img src="https://img.shields.io/badge/LINKEDIN-805AD5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+<img src="https://github-readme-stats.vercel.app/api?username=anand-sahnix&show_icons=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=F59E0B" alt="GitHub statistics" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anand-sahnix&layout=compact&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Most used languages" height="165" />
+
+<br />
+
+<img src="https://streak-stats.demolab.com?user=anand-sahnix&hide_border=true&background=0D1117&ring=38BDF8&fire=F59E0B&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" alt="Contribution streak" />
+
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anand-sahnix&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=F59E0B&area=true&hide_border=true" alt="Contribution graph" width="100%" />
 
 </div>
 
-<!-- ========== CODING PROFILES ========== -->
+## Contribution snake
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anand-sahnix/anand-sahnix/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anand-sahnix/anand-sahnix/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated contribution graph snake" src="https://raw.githubusercontent.com/anand-sahnix/anand-sahnix/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
-<br/>
+## Connect
 
-<a href="https://github.com/anand-sahnix">GitHub</a> •
-<a href="https://leetcode.com/">LeetCode</a> •
-<a href="https://www.codechef.com/">CodeChef</a> •
-<a href="https://codeforces.com/">Codeforces</a>
+<a href="https://github.com/anand-sahnix"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/anand-kumar-sahni/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 
-<br/><br/>
-
-<a href="https://github.com/anand-sahnix">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/anand-kumar-sahni/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
-</a>
-
-</div>
-
----
-
-<!-- ========== INTRODUCTION ========== -->
-
-<div align="center">
-
-### `B.Tech CSE · 3rd Year · 2026`
-
-**Full Stack Developer | AI Enthusiast | Problem Solver**
-
-Building practical applications, exploring AI-powered systems, and learning how to turn ideas into production-ready software.
-
-</div>
-
----
-
-<!-- ========== TECH STACK ========== -->
-
-<div align="center">
-
-### TECH STACK
-
-<img src="https://skillicons.dev/icons?i=java,python,cpp,html,css,js,react,nodejs,express,mongodb,mysql,git,github&perline=7" />
-
-</div>
-
----
-
-<!-- ========== PROJECTS ========== -->
-
-<div align="center">
-
-### FEATURED PROJECTS
-
-| Project | Description |
-|---|---|
-| **TradeIQ** | Trading analytics and risk management |
-| **AI Mock Interview** | AI-powered interview preparation |
-| **SkillForge AI** | Personalized learning and coding practice |
-
-</div>
-
----
-
-<div align="center">
-
-### GITHUB STATISTICS
-
-<img src="https://github-readme-stats.vercel.app/api?username=anand-sahnix&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anand-sahnix&layout=compact&theme=tokyonight&hide_border=true" height="160" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=anand-sahnix&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-<div align="center">
-
-### `BUILD · LEARN · DEPLOY · REPEAT`
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00F5D4,100:9B5DE5&height=3&section=footer" width="100%"/>
-
-</div>
-
-
-
-
-📫 How to reach me: **anandsahni582@gmail.com**
-
-
-
-<br>
-
-<h3 align="left">🚀 Currently Learning:</h3>
-<p>Machine Learning | DSA | Backend Development | Finance</p>
-
-<h3 align="left">⚡ Fun Fact:</h3>
-<p>I turn ideas into code, one commit at a time.</p>
+<p align="center"><sub>Build with intent | Learn continuously | Ship thoughtfully</sub></p>

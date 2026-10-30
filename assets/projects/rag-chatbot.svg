@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" role="img" aria-labelledby="title desc">
+  <title id="title">RAG-based HR Chatbot</title>
+  <desc id="desc">HR chatbot project using Python, retrieval-augmented generation, and large language models.</desc>
+  <defs><linearGradient id="accent" x2="1"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient></defs>
+  <rect x="1" y="1" width="558" height="188" rx="14" fill="#0D1117" stroke="#30363D"/><path d="M15 2h150" stroke="url(#accent)" stroke-width="3"/>
+  <text x="25" y="40" fill="#22D3EE" font-family="Consolas,monospace" font-size="12">04 / GENERATIVE AI</text>
+  <text x="25" y="78" fill="#E6EDF3" font-family="Arial,sans-serif" font-size="23" font-weight="700">RAG-based HR Chatbot</text>
+  <text x="25" y="108" fill="#C9D1D9" font-family="Arial,sans-serif" font-size="13">Retrieval-augmented chatbot project</text>
+  <text x="25" y="142" fill="#8B949E" font-family="Consolas,monospace" font-size="12">Python | RAG | LLMs</text>
+  <path d="M486 54c-15 0-27 10-27 23 0 7 4 13 10 17l-2 12 13-7h6c15 0 27-10 27-23s-12-22-27-22z" fill="none" stroke="#38BDF8" stroke-width="2"/>
+  <circle cx="477" cy="77" r="2" fill="#38BDF8"/><circle cx="486" cy="77" r="2" fill="#38BDF8"/><circle cx="495" cy="77" r="2" fill="#38BDF8"/>
+</svg>

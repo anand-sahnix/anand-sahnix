@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" role="img" aria-labelledby="title desc">
+  <title id="title">TradeIQ</title>
+  <desc id="desc">Trading technology project using React and TypeScript, focused on risk management and market analysis.</desc>
+  <defs><linearGradient id="accent" x2="1"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#F59E0B"/></linearGradient></defs>
+  <rect x="1" y="1" width="558" height="188" rx="14" fill="#0D1117" stroke="#30363D"/><path d="M15 2h150" stroke="url(#accent)" stroke-width="3"/>
+  <text x="25" y="40" fill="#22D3EE" font-family="Consolas,monospace" font-size="12">02 / TRADING TECHNOLOGY</text>
+  <text x="25" y="78" fill="#E6EDF3" font-family="Arial,sans-serif" font-size="24" font-weight="700">TradeIQ</text>
+  <text x="25" y="105" fill="#C9D1D9" font-family="Arial,sans-serif" font-size="13">Trading analytics and market tooling</text>
+  <text x="25" y="138" fill="#8B949E" font-family="Consolas,monospace" font-size="12">React | TypeScript</text>
+  <text x="25" y="160" fill="#8B949E" font-family="Consolas,monospace" font-size="12">Risk Management | Market Analysis</text>
+  <path d="M446 115 468 97l21 8 30-39" fill="none" stroke="#38BDF8" stroke-width="2"/><path d="M511 66h8v8" fill="none" stroke="#38BDF8" stroke-width="2"/>
+</svg>

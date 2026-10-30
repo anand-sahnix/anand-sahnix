@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Anand Sahni — Full Stack Developer</title>
+  <desc id="desc">Dark terminal-inspired banner with a cyan and blue animated accent.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#3B82F6"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#0EA5E9" stop-opacity=".19"/><stop offset="1" stop-color="#0D1117" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8B949E" stroke-opacity=".08" stroke-width="1"/></pattern>
+    <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="#0D1117"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <ellipse cx="850" cy="130" rx="440" ry="230" fill="url(#glow)"/>
+  <path d="M0 2H1200" stroke="url(#edge)" stroke-width="3"><animate attributeName="stroke-dasharray" values="0 1200;600 600;1200 0;0 1200" dur="8s" repeatCount="indefinite"/></path>
+  <g font-family="'Segoe UI',Arial,sans-serif">
+    <text x="76" y="78" fill="#8B949E" font-size="13" letter-spacing="3">ANAND-SAHNIX / PROFILE</text>
+    <text x="72" y="161" fill="#22D3EE" opacity=".4" font-size="58" font-weight="700" filter="url(#soft)">ANAND SAHNI</text>
+    <text x="72" y="157" fill="#E6EDF3" font-size="58" font-weight="700" letter-spacing="1">ANAND SAHNI</text>
+    <text x="76" y="201" fill="#58A6FF" font-size="21" font-weight="500">Full Stack Developer <tspan fill="#F59E0B">|</tspan> AI Enthusiast</text>
+    <text x="76" y="250" fill="#8B949E" font-family="Consolas,monospace" font-size="14">&gt; turning ideas into useful software<tspan fill="#22D3EE">_</tspan><animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/></text>
+  </g>
+  <g transform="translate(930 76)" fill="none" stroke="url(#edge)" stroke-width="2">
+    <circle cx="92" cy="68" r="42" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="0 92 68" to="360 92 68" dur="18s" repeatCount="indefinite"/></circle>
+    <circle cx="92" cy="68" r="61" stroke-dasharray="4 10" opacity=".65"><animateTransform attributeName="transform" type="rotate" from="360 92 68" to="0 92 68" dur="24s" repeatCount="indefinite"/></circle>
+    <path d="m80 54-18 14 18 14m24-28 18 14-18 14m-8-34-9 40" stroke="#38BDF8" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values="1;.45;1" dur="2.5s" repeatCount="indefinite"/></path>
+  </g>
+</svg>

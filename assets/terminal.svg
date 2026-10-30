@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" role="img" aria-labelledby="title">
+  <title id="title">Anand Sahni terminal profile</title>
+  <rect x="1" y="1" width="898" height="268" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <path d="M1 44h898" stroke="#30363D"/><circle cx="24" cy="23" r="5" fill="#F85149"/><circle cx="43" cy="23" r="5" fill="#D29922"/><circle cx="62" cy="23" r="5" fill="#3FB950"/>
+  <text x="84" y="28" fill="#8B949E" font-family="Consolas,monospace" font-size="13">anand@github: ~/profile</text>
+  <g font-family="Consolas,monospace" font-size="16"><text x="28" y="82" fill="#39D353">$</text><text x="48" y="82" fill="#E6EDF3">cat about.txt</text><text x="28" y="121" fill="#58A6FF">NAME</text><text x="185" y="121" fill="#C9D1D9">Anand Sahni</text><text x="28" y="153" fill="#58A6FF">ROLE</text><text x="185" y="153" fill="#C9D1D9">Full Stack Developer</text><text x="28" y="185" fill="#58A6FF">STUDY</text><text x="185" y="185" fill="#C9D1D9">B.Tech CSE · 3rd Year</text><text x="28" y="217" fill="#58A6FF">FOCUS</text><text x="185" y="217" fill="#C9D1D9">AI · GenAI · DSA · Trading Technology</text><text x="28" y="249" fill="#39D353">$</text><text x="48" y="249" fill="#8B949E">currently learning and building</text><rect x="335" y="235" width="9" height="18" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></g>
+</svg>
