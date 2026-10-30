@@ -1,0 +1,505 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" preserveAspectRatio="xMidYMid meet">
+  <title>Anand Kumar Sahni – AI Engineer • Agentic Systems • Full Stack Developer</title>
+  <desc>Futuristic animated GitHub profile banner featuring Autonomous AI Agent Swarm orchestration, symmetrical multi-agent topology, ReAct workflow telemetry, and modern developer branding.</desc>
+  
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B10" />
+      <stop offset="45%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#05070B" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="cyanAmbient" cx="18%" cy="45%" r="48%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.16" />
+      <stop offset="55%" stop-color="#0369A1" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#080B10" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="agentAmbient" cx="72%" cy="45%" r="48%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.15" />
+      <stop offset="35%" stop-color="#6366F1" stop-opacity="0.08" />
+      <stop offset="70%" stop-color="#0F172A" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#080B10" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#080B10" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Typography Gradients -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="65%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+
+    <!-- Separator Gradient -->
+    <linearGradient id="sepGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.05" />
+      <stop offset="15%" stop-color="#334155" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="85%" stop-color="#334155" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Card Background Gradients -->
+    <linearGradient id="telemetryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#090E17" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="agentNodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1E36" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0A1220" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="hubCoreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0369A1" />
+      <stop offset="100%" stop-color="#0C4A6E" />
+    </linearGradient>
+
+    <!-- Subtle Technical Grid Pattern -->
+    <pattern id="gridPattern" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#162032" stroke-width="0.75" stroke-opacity="0.45" />
+      <circle cx="0" cy="0" r="0.75" fill="#38BDF8" fill-opacity="0.25" />
+    </pattern>
+
+    <!-- Bloom / Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="1.8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    <![CDATA[
+    /* Base Typography */
+    .mono {
+      font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', 'Roboto Mono', 'Cascadia Code', 'Consolas', monospace;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Core Animations */
+    @keyframes cursorBlink {
+      0%, 45% { opacity: 1; }
+      50%, 95% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes statusPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.9); }
+    }
+
+    @keyframes hubSpin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes hubSpinReverse {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    @keyframes pulseRing {
+      0% {
+        r: 16;
+        stroke-opacity: 0.9;
+        stroke-width: 1.8;
+      }
+      50% {
+        r: 32;
+        stroke-opacity: 0.35;
+        stroke-width: 1.2;
+      }
+      100% {
+        r: 48;
+        stroke-opacity: 0;
+        stroke-width: 0.5;
+      }
+    }
+
+    @keyframes streamFlow {
+      0% {
+        stroke-dashoffset: 100;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes streamFlowReverse {
+      0% {
+        stroke-dashoffset: -100;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes cardGlow {
+      0%, 100% {
+        filter: drop-shadow(0 0 2px rgba(56, 189, 248, 0.25));
+      }
+      50% {
+        filter: drop-shadow(0 0 7px rgba(56, 189, 248, 0.55));
+      }
+    }
+
+    /* Animation Classes */
+    .terminal-cursor {
+      animation: cursorBlink 1.1s infinite;
+    }
+
+    .status-dot {
+      animation: statusPulse 2.2s ease-in-out infinite;
+      transform-origin: center;
+    }
+
+    .hub-ring-cw {
+      transform-origin: 852px 142px;
+      animation: hubSpin 24s linear infinite;
+    }
+
+    .hub-ring-ccw {
+      transform-origin: 852px 142px;
+      animation: hubSpinReverse 16s linear infinite;
+    }
+
+    .pulse-wave-1 {
+      animation: pulseRing 3s cubic-bezier(0.1, 0.4, 0.8, 1) infinite;
+    }
+
+    .pulse-wave-2 {
+      animation: pulseRing 3s cubic-bezier(0.1, 0.4, 0.8, 1) infinite;
+      animation-delay: 1.5s;
+    }
+
+    .flow-stream {
+      stroke-dasharray: 6 10;
+      animation: streamFlow 2.8s linear infinite;
+    }
+
+    .flow-stream-fast {
+      stroke-dasharray: 4 8;
+      animation: streamFlowReverse 2s linear infinite;
+    }
+
+    .agent-card {
+      animation: cardGlow 4s ease-in-out infinite;
+    }
+]]>
+  </style>
+
+  <!-- Deep Black Base Canvas -->
+  <rect width="1200" height="320" fill="url(#bgGradient)" />
+
+  <!-- Subtle Dark Grid Pattern -->
+  <rect width="1200" height="320" fill="url(#gridPattern)" />
+
+  <!-- Ambient Color Washes -->
+  <rect width="1200" height="320" fill="url(#cyanAmbient)" pointer-events="none" />
+  <rect width="1200" height="320" fill="url(#agentAmbient)" pointer-events="none" />
+
+  <!-- Outer Technical Inset Frame -->
+  <rect x="14" y="14" width="1172" height="292" rx="7" fill="none" stroke="#1E293B" stroke-width="1" stroke-opacity="0.6" />
+  
+  <!-- Sleek Corner Cyber Brackets -->
+  <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.8" />
+  <path d="M 1186 30 L 1186 14 L 1170 14" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.8" />
+  <path d="M 14 290 L 14 306 L 30 306" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.8" />
+  <path d="M 1186 290 L 1186 306 L 1170 306" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-opacity="0.8" />
+
+  <!-- ========================================== -->
+  <!-- LEFT SECTION — PERSONAL BRANDING           -->
+  <!-- ========================================== -->
+
+  <!-- Terminal Header / Status Row -->
+  <g transform="translate(44, 40)">
+    <!-- Terminal Window Buttons -->
+    <circle cx="6" cy="6" r="4.5" fill="#EF4444" fill-opacity="0.85" />
+    <circle cx="21" cy="6" r="4.5" fill="#F59E0B" fill-opacity="0.85" />
+    <circle cx="36" cy="6" r="4.5" fill="#10B981" fill-opacity="0.85" />
+
+    <!-- Terminal Prompt Path -->
+    <text x="58" y="9.5" class="mono" font-size="10.5" font-weight="600" fill="#64748B" letter-spacing="1">
+      TERMINAL://<tspan fill="#38BDF8">ANAND_SAHNI</tspan>/AGENTS <tspan fill="#475569">|</tspan>
+    </text>
+
+    <!-- Live Status Pill Badge -->
+    <g transform="translate(254, -1.5)">
+      <rect x="0" y="0" width="108" height="17" rx="3.5" fill="#0B1526" stroke="#1E293B" stroke-width="0.8" />
+      <circle cx="8" cy="8.5" r="3" fill="#10B981" class="status-dot" />
+      <text x="16" y="11.5" class="mono" font-size="8.5" font-weight="700" fill="#10B981" letter-spacing="0.8">SWARM ONLINE</text>
+    </g>
+
+    <!-- Telemetry Readout -->
+    <text x="372" y="9.5" class="mono" font-size="9" fill="#475569" letter-spacing="0.5">
+      AGENTS: <tspan fill="#38BDF8">4 ACTIVE</tspan>
+    </text>
+  </g>
+
+  <!-- Large Bold Monospace Name -->
+  <g transform="translate(44, 100)">
+    <text class="mono" font-size="31" font-weight="800" fill="url(#nameGrad)" letter-spacing="2">
+      ANAND KUMAR SAHNI
+    </text>
+  </g>
+
+  <!-- Subtitle Roles Line (Agent + AI + Dev, No Finance/Trader) -->
+  <g transform="translate(44, 129)">
+    <text class="mono" font-size="11.5" font-weight="700" letter-spacing="2.2">
+      <tspan fill="#38BDF8">AI ENGINEER</tspan>
+      <tspan fill="#64748B" font-weight="400">  •  </tspan>
+      <tspan fill="#818CF8">AGENTIC SYSTEMS</tspan>
+      <tspan fill="#64748B" font-weight="400">  •  </tspan>
+      <tspan fill="#34D399">FULL STACK DEVELOPER</tspan>
+    </text>
+  </g>
+
+  <!-- Tagline with Command Prompt & Blinking Cursor -->
+  <g transform="translate(44, 163)">
+    <!-- Shell Prompt Indicator -->
+    <text x="0" y="0" class="mono" font-size="14" font-weight="700" fill="#38BDF8">&gt;</text>
+    
+    <!-- Tagline Text -->
+    <text x="18" y="-1" class="mono" font-size="13.5" font-weight="400" fill="#94A3B8" letter-spacing="0.3">
+      building ideas into intelligent products.
+    </text>
+
+    <!-- Blinking Terminal Cursor -->
+    <rect x="372" y="-13" width="7.5" height="15" fill="#38BDF8" rx="1" class="terminal-cursor" />
+  </g>
+
+  <!-- Terminal Telemetry Dashboard Card (AI Agents Focused) -->
+  <g transform="translate(44, 192)">
+    <!-- Card Frame -->
+    <rect x="0" y="0" width="465" height="52" rx="6" fill="url(#telemetryGrad)" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Cyan Left Accent Indicator -->
+    <rect x="0" y="8" width="2.5" height="36" fill="#38BDF8" rx="1" />
+
+    <!-- Metric 1: Architecture -->
+    <g transform="translate(18, 14)">
+      <text y="8" class="mono" font-size="8.5" font-weight="600" fill="#64748B" letter-spacing="1">FRAMEWORKS</text>
+      <text y="24" class="mono" font-size="11.5" font-weight="700" fill="#F8FAFC" letter-spacing="0.4">
+        Multi-Agent &amp; LLMs
+      </text>
+    </g>
+
+    <!-- Divider 1 -->
+    <line x1="174" y1="10" x2="174" y2="42" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Metric 2: Agent Autonomy -->
+    <g transform="translate(192, 14)">
+      <text y="8" class="mono" font-size="8.5" font-weight="600" fill="#64748B" letter-spacing="1">AUTONOMY</text>
+      <text y="24" class="mono" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="0.4">
+        ReAct &amp; Tool-Use
+      </text>
+    </g>
+
+    <!-- Divider 2 -->
+    <line x1="338" y1="10" x2="338" y2="42" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Metric 3: Optimization / Engineering -->
+    <g transform="translate(356, 14)">
+      <text y="8" class="mono" font-size="8.5" font-weight="600" fill="#64748B" letter-spacing="1">EXECUTION</text>
+      <text y="24" class="mono" font-size="11.5" font-weight="700" fill="#34D399" letter-spacing="0.4">
+        Autonomous Pipelines
+      </text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- RIGHT SECTION — AUTONOMOUS AGENT SWARM     -->
+  <!-- Perfectly Symmetrical 4-Agent Orchestration -->
+  <!-- ========================================== -->
+
+  <!-- Top Telemetry Header for Agent Swarm -->
+  <g transform="translate(565, 36)">
+    <rect x="0" y="0" width="574" height="20" rx="4" fill="#0A1120" stroke="#1E293B" stroke-width="0.8" />
+    <text x="287" y="13.5" class="mono" font-size="9" font-weight="700" fill="#64748B" letter-spacing="0.8" text-anchor="middle">
+      SWARM_ID: <tspan fill="#38BDF8">V4-AUTONOMOUS</tspan>  <tspan fill="#334155">|</tspan>  
+      LOOP: <tspan fill="#A78BFA">PLAN ➔ RETRIEVE ➔ ACT ➔ CRITIQUE</tspan>  <tspan fill="#334155">|</tspan>  
+      STATUS: <tspan fill="#10B981">ORCHESTRATING</tspan>
+    </text>
+  </g>
+
+  <!-- Ambient Glow Behind Orchestrator Core -->
+  <circle cx="852" cy="142" r="95" fill="url(#coreGlow)" pointer-events="none" />
+
+  <!-- Symmetrical Inter-Agent Collaborative Circuit Loop -->
+  <rect x="702" y="85" width="300" height="114" rx="20" fill="none" stroke="#1E293B" stroke-width="1.2" stroke-dasharray="4 6" />
+  <rect x="702" y="85" width="300" height="114" rx="20" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.35" class="flow-stream" />
+
+  <!-- Cross Inter-Agent Links (Collaborative Mesh) -->
+  <line x1="702" y1="85" x2="1002" y2="85" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="2 4" />
+  <line x1="1002" y1="85" x2="1002" y2="199" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="2 4" />
+  <line x1="1002" y1="199" x2="702" y2="199" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="2 4" />
+  <line x1="702" y1="199" x2="702" y2="85" stroke="#1E293B" stroke-width="0.8" stroke-dasharray="2 4" />
+
+  <!-- Animated Neural Data Vector Streams (Hub to Satellite Agents) -->
+  <!-- Stream to Planner (Top Left, Center 702, 85) -->
+  <path d="M 852 142 C 802 128, 752 99, 702 85" fill="none" stroke="#6366F1" stroke-width="1.5" stroke-opacity="0.3" />
+  <path d="M 852 142 C 802 128, 752 99, 702 85" fill="none" stroke="#818CF8" stroke-width="1.8" class="flow-stream" />
+
+  <!-- Stream to Retriever (Top Right, Center 1002, 85) -->
+  <path d="M 852 142 C 902 128, 952 99, 1002 85" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.3" />
+  <path d="M 852 142 C 902 128, 952 99, 1002 85" fill="none" stroke="#38BDF8" stroke-width="1.8" class="flow-stream-fast" />
+
+  <!-- Stream to Actuator (Bottom Right, Center 1002, 199) -->
+  <path d="M 852 142 C 902 156, 952 185, 1002 199" fill="none" stroke="#10B981" stroke-width="1.5" stroke-opacity="0.3" />
+  <path d="M 852 142 C 902 156, 952 185, 1002 199" fill="none" stroke="#34D399" stroke-width="1.8" class="flow-stream" />
+
+  <!-- Stream to Critic (Bottom Left, Center 702, 199) -->
+  <path d="M 852 142 C 802 156, 752 185, 702 199" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.3" />
+  <path d="M 852 142 C 802 156, 752 185, 702 199" fill="none" stroke="#FBBF24" stroke-width="1.8" class="flow-stream-fast" />
+
+  <!-- ========================================== -->
+  <!-- CENTRAL AGENT: ORCHESTRATOR HUB            -->
+  <!-- ========================================== -->
+  <g id="orchestratorCore">
+    <!-- Pulsing Radar / Sonar Rings -->
+    <circle cx="852" cy="142" r="18" fill="none" stroke="#38BDF8" class="pulse-wave-1" />
+    <circle cx="852" cy="142" r="18" fill="none" stroke="#818CF8" class="pulse-wave-2" />
+
+    <!-- Outer Rotating Ticks Ring (Clockwise, r=28) -->
+    <circle cx="852" cy="142" r="28" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-opacity="0.65" stroke-dasharray="4 8" class="hub-ring-cw" />
+    
+    <!-- Inner Rotating Ring (Counter-Clockwise, r=20) -->
+    <circle cx="852" cy="142" r="20" fill="none" stroke="#818CF8" stroke-width="1.5" stroke-opacity="0.85" stroke-dasharray="10 5 3 5" class="hub-ring-ccw" />
+
+    <!-- Solid Core Hub -->
+    <circle cx="852" cy="142" r="14" fill="url(#hubCoreGrad)" stroke="#38BDF8" stroke-width="1.8" filter="url(#glowCyan)" />
+
+    <!-- Center Agent Icon Glyphs -->
+    <text x="852" y="146" class="mono" font-size="11" font-weight="800" fill="#FFFFFF" text-anchor="middle">◈</text>
+
+    <!-- Hub Title Badge (Positioned symmetrically beneath outer ring) -->
+    <g transform="translate(802, 171)">
+      <rect x="0" y="0" width="100" height="15" rx="3" fill="#060C18" stroke="#38BDF8" stroke-width="0.8" />
+      <text x="50" y="11" class="mono" font-size="7.5" font-weight="800" fill="#38BDF8" text-anchor="middle" letter-spacing="1">ORCHESTRATOR</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- SUB-AGENTS (SATELLITE WORKER AGENTS)       -->
+  <!-- Perfectly Aligned Grid: 144x46 px each     -->
+  <!-- ========================================== -->
+
+  <!-- AGENT 1: PLANNER & REASONING (Top Left: 630, 62) -->
+  <g transform="translate(630, 62)" class="agent-card">
+    <rect x="0" y="0" width="144" height="46" rx="6" fill="url(#agentNodeGrad)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.85" filter="url(#softGlow)" />
+    <!-- Node Status Beacon -->
+    <circle cx="15" cy="16" r="3.5" fill="#818CF8" class="status-dot" />
+    <text x="25" y="19" class="mono" font-size="9" font-weight="800" fill="#818CF8" letter-spacing="0.8">AGENT_01: PLAN</text>
+    <text x="14" y="35" class="mono" font-size="8" font-weight="500" fill="#94A3B8">ReAct Reasoning</text>
+    <!-- State Chip -->
+    <rect x="100" y="25" width="36" height="13" rx="3" fill="#1E1B4B" stroke="#6366F1" stroke-width="0.6" />
+    <text x="118" y="34.5" class="mono" font-size="6.5" font-weight="700" fill="#A5B4FC" text-anchor="middle">ACTIVE</text>
+  </g>
+
+  <!-- AGENT 2: RETRIEVER & MEMORY (Top Right: 930, 62) -->
+  <g transform="translate(930, 62)" class="agent-card">
+    <rect x="0" y="0" width="144" height="46" rx="6" fill="url(#agentNodeGrad)" stroke="#38BDF8" stroke-width="1" stroke-opacity="0.85" filter="url(#softGlow)" />
+    <circle cx="15" cy="16" r="3.5" fill="#38BDF8" class="status-dot" />
+    <text x="25" y="19" class="mono" font-size="9" font-weight="800" fill="#38BDF8" letter-spacing="0.8">AGENT_02: RETRIEVE</text>
+    <text x="14" y="35" class="mono" font-size="8" font-weight="500" fill="#94A3B8">RAG &amp; Vector DB</text>
+    <rect x="100" y="25" width="36" height="13" rx="3" fill="#0C253B" stroke="#38BDF8" stroke-width="0.6" />
+    <text x="118" y="34.5" class="mono" font-size="6.5" font-weight="700" fill="#7DD3FC" text-anchor="middle">SYNCED</text>
+  </g>
+
+  <!-- AGENT 3: ACTUATOR & TOOLS (Bottom Right: 930, 176) -->
+  <g transform="translate(930, 176)" class="agent-card">
+    <rect x="0" y="0" width="144" height="46" rx="6" fill="url(#agentNodeGrad)" stroke="#10B981" stroke-width="1" stroke-opacity="0.85" filter="url(#softGlow)" />
+    <circle cx="15" cy="16" r="3.5" fill="#10B981" class="status-dot" />
+    <text x="25" y="19" class="mono" font-size="9" font-weight="800" fill="#10B981" letter-spacing="0.8">AGENT_03: EXECUTE</text>
+    <text x="14" y="35" class="mono" font-size="8" font-weight="500" fill="#94A3B8">Tool &amp; API Calling</text>
+    <rect x="100" y="25" width="36" height="13" rx="3" fill="#06281E" stroke="#10B981" stroke-width="0.6" />
+    <text x="118" y="34.5" class="mono" font-size="6.5" font-weight="700" fill="#6EE7B7" text-anchor="middle">RUNNING</text>
+  </g>
+
+  <!-- AGENT 4: CRITIC & REFLECTION (Bottom Left: 630, 176) -->
+  <g transform="translate(630, 176)" class="agent-card">
+    <rect x="0" y="0" width="144" height="46" rx="6" fill="url(#agentNodeGrad)" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.85" filter="url(#softGlow)" />
+    <circle cx="15" cy="16" r="3.5" fill="#F59E0B" class="status-dot" />
+    <text x="25" y="19" class="mono" font-size="9" font-weight="800" fill="#F59E0B" letter-spacing="0.8">AGENT_04: REFLECT</text>
+    <text x="14" y="35" class="mono" font-size="8" font-weight="500" fill="#94A3B8">Self-Correction</text>
+    <rect x="100" y="25" width="36" height="13" rx="3" fill="#2E1C05" stroke="#F59E0B" stroke-width="0.6" />
+    <text x="118" y="34.5" class="mono" font-size="6.5" font-weight="700" fill="#FCD34D" text-anchor="middle">VERIFIED</text>
+  </g>
+
+  <!-- Bottom Execution Telemetry Ticker (Centered at X=852) -->
+  <g transform="translate(565, 238)">
+    <text x="287" y="4" class="mono" font-size="8.5" fill="#475569" letter-spacing="1" text-anchor="middle">
+      SWARM_LATENCY: <tspan fill="#38BDF8">8.4ms</tspan>  <tspan fill="#334155">•</tspan>  
+      TOOL_CALLS: <tspan fill="#10B981">1,420/s</tspan>  <tspan fill="#334155">•</tspan>  
+      CONSENSUS: <tspan fill="#A78BFA">99.9%</tspan>  <tspan fill="#334155">•</tspan>  
+      AUTONOMY: <tspan fill="#38BDF8">LEVEL 4</tspan>
+    </text>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- BOTTOM SECTION — SEPARATOR & TECH TICKER   -->
+  <!-- ========================================== -->
+
+  <!-- Thin Horizontal Separator Line -->
+  <line x1="32" y1="268" x2="1168" y2="268" stroke="url(#sepGrad)" stroke-width="1" />
+  
+  <!-- Subtle Technical Center Diamond / Accent Mark -->
+  <circle cx="600" cy="268" r="2.2" fill="#38BDF8" fill-opacity="0.85" />
+
+  <!-- Terminal Technology Ticker (Completely free of finance / trading) -->
+  <g transform="translate(600, 294)" text-anchor="middle">
+    <text class="mono" font-size="11" font-weight="700" letter-spacing="2.8">
+      <tspan fill="#E2E8F0">AI/ML</tspan>
+      <tspan fill="#38BDF8">  ◆  </tspan>
+      <tspan fill="#E2E8F0">AI AGENTS</tspan>
+      <tspan fill="#818CF8">  ◆  </tspan>
+      <tspan fill="#E2E8F0">PYTHON</tspan>
+      <tspan fill="#38BDF8">  ◆  </tspan>
+      <tspan fill="#E2E8F0">REACT</tspan>
+      <tspan fill="#10B981">  ◆  </tspan>
+      <tspan fill="#E2E8F0">NODE.JS</tspan>
+      <tspan fill="#38BDF8">  ◆  </tspan>
+      <tspan fill="#E2E8F0">LLMS</tspan>
+      <tspan fill="#F59E0B">  ◆  </tspan>
+      <tspan fill="#E2E8F0">DSA</tspan>
+      <tspan fill="#38BDF8">  ◆  </tspan>
+      <tspan fill="#E2E8F0">C++</tspan>
+      <tspan fill="#10B981">  ◆  </tspan>
+      <tspan fill="#E2E8F0">MONGODB</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Left & Right Terminal Ticker Badges -->
+  <g transform="translate(44, 293)">
+    <text class="mono" font-size="8.5" font-weight="700" fill="#475569" letter-spacing="1.2">
+      [<tspan fill="#38BDF8">STACK: PROD_READY</tspan>]
+    </text>
+  </g>
+
+  <g transform="translate(1156, 293)" text-anchor="end">
+    <text class="mono" font-size="8.5" font-weight="700" fill="#475569" letter-spacing="1.2">
+      [<tspan fill="#10B981">AUTONOMY: ACTIVE</tspan>]
+    </text>
+  </g>
+
+</svg>
