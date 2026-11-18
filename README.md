@@ -62,7 +62,7 @@ I build full stack applications and explore how AI can make useful products more
 </table>
 
 Project repository links were not present in the inspected profile source, so no repository URLs or live demos are listed here.
-
+<!-- 
 ## GitHub activity
 
 <div align="center">
@@ -78,7 +78,7 @@ Project repository links were not present in the inspected profile source, so no
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=anand-sahnix&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=F59E0B&area=true&hide_border=true" alt="Contribution graph" width="100%" />
 
-</div>
+</div> -->
 
 <!-- ## Contribution snake
 
